@@ -2,7 +2,7 @@
   <div class="container text-center mt-5 mb-5 p-5 bg-light rounded shadow">
     <h1 class="display-4 mb-3">Gerador de Senha</h1>
     <div
-      class="row mb-3 justify-content-center text-center p-3 rounded shadow bg-light"
+      class="row mb-3 justify-content-center text-center p-3 rounded shadow bg-light rounded p-3 mb-3 text-center shadow bg-light rounded p-3 mb-3"
     >
       <div class="col-12 p-3 mb-3 text-center shadow bg-light rounded p-3 mb-3">
         <label class="form-label">Tamanho da senha</label>
@@ -14,7 +14,7 @@
         />
       </div>
 
-      <div class="col-12 p-3">
+      <div class="col-12 p-3  mb-3 text-center shadow bg-light rounded p-3 mb-3">
         <label class="form-label">Incluir maiúsculas</label>
         <input
           type="checkbox"
@@ -184,6 +184,7 @@ button {
   padding: 10px;
   font-size: 1rem;
   margin-top: 10px;
+
 }
 
 button.btn-primary {
@@ -191,6 +192,7 @@ button.btn-primary {
   border: none;
   border-radius: 5px;
   transition: background-color 0.3s;
+
 }
 
 button.btn-primary:hover {
@@ -202,6 +204,7 @@ button.btn-secondary {
   border: none;
   border-radius: 5px;
   transition: background-color 0.3s;
+  color: #ffffff;
 }
 
 button.btn-secondary:hover {
@@ -213,6 +216,7 @@ button.btn-danger {
   border: none;
   border-radius: 5px;
   transition: background-color 0.3s;
+  color: #ffffff;
 }
 
 button.btn-danger:hover {
